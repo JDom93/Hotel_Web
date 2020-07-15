@@ -1,0 +1,141 @@
+.clear {
+    clear: none;
+}
+
+.btn {
+    width: 80%;
+}
+
+.nav-bar h1 {
+    display: block;
+    float: none;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.nav-bar ul {
+    background-color: #2f2519;
+    width: 100%;
+}
+
+.nav-bar ul li {
+    width: 33.3%;
+    float: left;
+}
+
+.nav-bar div {
+    display: block;
+}
+
+.showcase {
+    height: 50rem;
+    padding-top: 10rem;
+}
+
+.showcase-content {
+    width: 80%;
+}
+
+.summary .img {
+    display: none;
+}
+
+.summary div {
+    width: 80%;
+    float: none; 
+    display: block;
+    margin: 0 auto;
+    padding: 10rem 2rem;
+}
+
+.summary p {
+    display: inline;
+    width: 100%;
+}
+
+.features {
+    height: auto;
+}
+
+
+.box {
+    height: auto;
+    float: none;
+    display: block;
+    width: 100%;
+    padding: 10rem 4rem 10rem;
+}
+
+.box p {
+    width: 90%;
+}
+
+
+
+/***** ABOUT PAGE *****/
+
+.about-info {
+    text-align: center;
+    height: auto;
+    padding-top: 5rem;
+}
+
+.about-info div.about-txt,
+.about-info div.about-img {
+    float: none;
+    display: block;
+    width: 100%;
+    min-height: auto;
+}
+
+.about-info div.about-txt {
+    padding: 5rem 3rem 0;
+}
+
+.about-info div.about-img {
+    padding: 2rem 0;
+    margin: 0;
+}
+
+.testimonials {
+    height: auto;
+    padding: 5rem 0;
+}
+
+.testimonials .testimonial {
+    height: auto;
+    padding: 3rem 3rem;
+}
+
+.testimonials .testimonial img {
+    float: none;
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.testimonials .testimonial p {
+    padding: 0;
+}
+
+
+/* *** CONTACT PAGE *** */
+
+.contact-header {
+    padding-top: 8rem;
+}
+
+.form {
+    padding: 0 2rem;
+}
+
+.form label {
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+
+
+.footer {
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a32301e857.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" media="(max-width: 500px)" href="styles/mobile.css">
+    <title>HBT Hotels</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div>
+            <h1>HBT</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="current"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section class="contact-page">
+
+        <div class="contact-header">
+            <h1 class="heading-lg">
+                <span class="primary-heading">Contact</span> Us!
+            </h1>
+            <p>Tell us everything that you like.</p>
+        </div>
+
+        <div class="form">
+            <form action="process.php" class="form">
+                <label for="">Full Name</label>
+                <input type="text" id="name-input">
+                <label for="">E-Mail</label>
+                <input type="text" id="email-input">
+                <label for="">Your Letter to Us</label>
+                <textarea name="" id="letter-input" cols="40" rows="15"></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <div class="box bg-dark">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3 class="heading-s">Visit Us!</h3>
+                <p>Rue Down Street 173</p>
+            </div>
+            <div class="box bg-dark">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3 class="heading-s">Call Us!</h3>
+                <p>(575) 555-5555</p>
+            </div>
+            <div class="box bg-dark">
+                <i class="fas fa-envelope-open-text fa-3x"></i>
+                <h3 class="heading-s">Send us an Email!</h3>
+                <p>fakeemail@email.com</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
